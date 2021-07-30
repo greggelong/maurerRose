@@ -16,6 +16,9 @@ function setup() {
   multiplier = width/2.5
   angleMode(DEGREES);
   textSize(30);
+  createP();
+  createP(); // put some space between button and link
+  createA('https://github.com/greggelong/maurerRose', 'link to this  repo');
 }
 
 function draw() {
