@@ -12,7 +12,7 @@ function setup() {
     createCanvas(windowWidth,windowWidth);
   }
   
-  frameRate(7);
+  frameRate(25);
   multiplier = width/2.5
   angleMode(DEGREES);
   textSize(30);
